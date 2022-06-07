@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <script src="script.js" defer></script>
+
+    <title>Gardien De But</title>
+  </head>
+  <body>
+    <h1>Meilleur Gardien dans la NHL saison 2020/2021</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Équipe<i class="fas fa-sort-up" onclick="sortTeamUp()"></i></i><i class="fas fa-sort-down" onclick="sortTeamDown()"></i><i class="fas fa-undo-alt" onclick="reset()"></i> </th>
+          <th>Prénom <i class="fas fa-sort-up"onclick="sortNameUp()"></i></i><i class="fas fa-sort-down"onclick="sortNameDown()" ></i><i class="fas fa-undo-alt"  onclick="reset()"></i></th>
+          <th>Nom <i class="fas fa-sort-up"onclick="sortLastNameUp()"></i></i><i class="fas fa-sort-down"onclick="sortLastNameDown()"></i><i class="fas fa-undo-alt" onclick="reset()"></i></th>
+          <th>Parties Jouées <i class="fas fa-sort-up"onclick="sortGameUp()"></i></i><i class="fas fa-sort-down" onclick="sortGameDown()"></i><i class="fas fa-undo-alt" onclick="reset()"></i></i></th>
+          <th>But Allouées <i class="fas fa-sort-up" onclick="sortGoalUp()"></i></i><i class="fas fa-sort-down" onclick="sortGoalDown()"></i><i class="fas fa-undo-alt" onclick="reset()"></i></th>
+          <th>Moyenne <i class="fas fa-sort-up" onclick="sortAverageUp()" ></i></i><i class="fas fa-sort-down" onclick="sortAverageDown()"></i><i class="fas fa-undo-alt" onclick="reset()"></i></th>
+          <th id="modifyErase">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <div id="myModal" class="modal"></div>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>L'url de l'image de l'équipe</th>
+          <th>Prénom</th>
+          <th>Nom</th>
+          <th>Parties Jouées</th>
+          <th>But Allouées</th>
+          <th id="modification">Rajouter Gardien</th>
+        </tr>
+        <tr  >
+          <th>
+            <input type="text" id="team" name="url" required />
+          </th>
+          <th>
+            <input type="text" id="name" required  />
+          </th>
+          <th><input type="text" id="lastname" required /></th>
+          <th><input type="number" id="game" min="0" required /> </th>
+          <th><input type="number" id="goal" required />  </th>
+          <th id="button">
+            <button id="addButton" class="fas fa-user-plus" onclick="addPlayer()"></button>
+          </th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+</html>

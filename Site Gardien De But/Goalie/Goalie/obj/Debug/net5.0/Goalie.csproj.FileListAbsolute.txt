@@ -1,0 +1,7 @@
+C:\Users\Anthobed\OneDrive\Documents\Site Gardien De But\Goalie\Goalie\obj\Debug\net5.0\Goalie.csproj.AssemblyReference.cache
+C:\Users\Anthobed\OneDrive\Documents\Site Gardien De But\Goalie\Goalie\obj\Debug\net5.0\Goalie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anthobed\OneDrive\Documents\Site Gardien De But\Goalie\Goalie\obj\Debug\net5.0\Goalie.AssemblyInfoInputs.cache
+C:\Users\Anthobed\OneDrive\Documents\Site Gardien De But\Goalie\Goalie\obj\Debug\net5.0\Goalie.AssemblyInfo.cs
+C:\Users\Anthobed\OneDrive\Documents\Site Gardien De But\Goalie\Goalie\obj\Debug\net5.0\Goalie.csproj.CoreCompileInputs.cache
+C:\Users\Anthobed\OneDrive\Documents\Site Gardien De But\Goalie\Goalie\obj\Debug\net5.0\Goalie.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anthobed\OneDrive\Documents\Site Gardien De But\Goalie\Goalie\obj\Debug\net5.0\Goalie.MvcApplicationPartsAssemblyInfo.cache
